@@ -1,0 +1,2 @@
+GET http://localhost:3000/users
+# the request above returns a json object with all users contact
