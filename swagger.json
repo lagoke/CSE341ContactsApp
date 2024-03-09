@@ -8,7 +8,7 @@
   "host": "cse341contactsapp.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http",
+
     "https"
   ],
   "paths": {
