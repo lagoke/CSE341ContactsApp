@@ -1,2 +1,40 @@
+// LOCALHOST
+### Get all users
 GET http://localhost:3000/users
-# the request above returns a json object with all users contact
+
+
+### Get user by id
+GET http://localhost:3000/users/65e756bf8934eba72bd25262
+
+
+### Create user
+POST http://localhost:3000/users HTTP/1.1
+content-type: appliacation/json
+
+    {
+        "firstName": "Smith",
+        "lastName": "Fred",
+        "email": "smithfred@gmail.com",
+        "favoriteColor": "green",
+        "birthday": "11th August"
+    }
+
+
+
+
+### PUT user
+PUT http://127.0.0.1:3000/users/65e758438934eba72bd25265 HTTP/1.1
+content-type: appliacation/json
+
+    {
+
+    "firstName": "Richie",
+    "lastName": "Andrews",
+    "email": "andrewrich2@gmail.com",
+    "favoriteColor": "brown",
+    "birthday": "8th August"
+    }
+
+
+### DELETE user
+DELETE http://localhost:3000/users/65e757978934eba72bd25264 HTTP/1.1
